@@ -24,10 +24,21 @@ int main() {
     // variable ordering & style #2
     {
         std::vector<std::string> exerciseNames, testNames;
-
         std::vector<int> exercises, tests;
-
         double exerciseAverage, testAverage;
+    }
+
+    // variable ordering & style #3
+    {
+        // exercises
+        std::vector<std::string> exerciseNames;
+        std::vector<int> exercises;
+        double exerciseAverage;
+
+        // tests
+        std::vector<std::string> testNames;
+        std::vector<int> tests;
+        double testAverage;
     }
 
     return 0;
