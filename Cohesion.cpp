@@ -13,19 +13,22 @@ int main() {
     {
         std::vector<std::string> exerciseNames;
         std::vector<std::string> testNames;
+        std::vector<std::string> quizNames;
 
         std::vector<int> exercises;
         std::vector<int> tests;
+        std::vector<int> quizzes;
 
         double exerciseAverage;
         double testAverage;
+        double quizAverage;
     }
 
     // variable ordering & style #2
     {
-        std::vector<std::string> exerciseNames, testNames;
-        std::vector<int> exercises, tests;
-        double exerciseAverage, testAverage;
+        std::vector<std::string> exerciseNames, testNames, quizNames;
+        std::vector<int> exercises, tests, quizzes;
+        double exerciseAverage, testAverage, quizAverage;
     }
 
     // variable ordering & style #3
@@ -39,6 +42,11 @@ int main() {
         std::vector<std::string> testNames;
         std::vector<int> tests;
         double testAverage;
+
+        // quizzes
+        std::vector<std::string> quizNames;
+        std::vector<int> quizzes;
+        double quizAverage;
     }
 
     return 0;
